@@ -9,6 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyFirstApp">
+        <activity android:name=".MyThirdActivity"></activity>
+        <activity android:name=".MySecondActivity" />
         <activity android:name=".MyFirstActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
